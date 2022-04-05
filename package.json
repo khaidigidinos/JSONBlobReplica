@@ -1,0 +1,25 @@
+{
+  "name": "jsonblobreplica",
+  "version": "1.0.0",
+  "description": "1. Clone this repository\r 2. Ensure that Node.js have been installed on your machine.\r 3. Open CMD then direct to the working directory of the cloned code.\r 4. Run `npm install` to download all dependencies.\r 5. Then, run `node replicate-jsonblob-api.js`. Now, your application is serving on http://localhost:3000",
+  "main": "replicate-jsonblob-api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaidigidinos/JSONBlobReplica.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khaidigidinos/JSONBlobReplica/issues"
+  },
+  "homepage": "https://github.com/khaidigidinos/JSONBlobReplica#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "fs": "0.0.1-security",
+    "uuid": "^8.3.2"
+  }
+}
