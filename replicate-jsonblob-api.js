@@ -101,5 +101,8 @@ app.delete('/api/:id', (req, res) => {
 })
 
 app.listen(port, () => {
+	if(!fs.existsSync(folder)) {
+		fs.mkdirSync(folder)
+	}
 	logger.info(`App is listening on port ${port}`)
 })
